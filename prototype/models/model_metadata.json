@@ -1,0 +1,141 @@
+{
+  "numeric_features": [
+    "employee_seniority_years",
+    "total_files_burned",
+    "burned_from_other",
+    "num_printed_pages_off_hours",
+    "total_printed_pages",
+    "num_entries",
+    "late_exit_flag",
+    "entry_during_weekend",
+    "trip_day_number"
+  ],
+  "categorical_features": [
+    "employee_department",
+    "employee_classification",
+    "is_contractor"
+  ],
+  "all_feature_names": [
+    "employee_seniority_years",
+    "total_files_burned",
+    "burned_from_other",
+    "num_printed_pages_off_hours",
+    "total_printed_pages",
+    "num_entries",
+    "late_exit_flag",
+    "entry_during_weekend",
+    "trip_day_number",
+    "employee_department_Engineering Department",
+    "employee_department_Executive Management",
+    "employee_department_Finance",
+    "employee_department_Human Resources",
+    "employee_department_Information Technology",
+    "employee_department_Legal and Regulation",
+    "employee_department_Marketing and Business Development",
+    "employee_department_Operations and Manufacturing",
+    "employee_department_Project Management",
+    "employee_department_R&D Department",
+    "employee_department_Security and Information Security",
+    "employee_classification_1",
+    "employee_classification_2",
+    "employee_classification_3",
+    "employee_classification_4",
+    "is_contractor_0",
+    "is_contractor_1"
+  ],
+  "feature_importances": {
+    "employee_seniority_years": 0.158535,
+    "total_files_burned": 0.326519,
+    "burned_from_other": 0.027123,
+    "num_printed_pages_off_hours": 0.058828,
+    "total_printed_pages": 0.205841,
+    "num_entries": 0.048265,
+    "late_exit_flag": 0.0,
+    "entry_during_weekend": 0.021398,
+    "trip_day_number": 0.017165,
+    "employee_department_Engineering Department": 0.014491,
+    "employee_department_Executive Management": 0.000805,
+    "employee_department_Finance": 0.004543,
+    "employee_department_Human Resources": 0.006598,
+    "employee_department_Information Technology": 0.00946,
+    "employee_department_Legal and Regulation": 0.002226,
+    "employee_department_Marketing and Business Development": 0.013742,
+    "employee_department_Operations and Manufacturing": 0.009488,
+    "employee_department_Project Management": 0.007281,
+    "employee_department_R&D Department": 0.009554,
+    "employee_department_Security and Information Security": 0.006337,
+    "employee_classification_1": 0.012115,
+    "employee_classification_2": 0.011246,
+    "employee_classification_3": 0.007856,
+    "employee_classification_4": 0.005083,
+    "is_contractor_0": 0.00769,
+    "is_contractor_1": 0.007813
+  },
+  "decision_threshold": 0.5,
+  "recall_target": 0.9,
+  "thresholds": {
+    "employee_seniority_years": {
+      "normal_mean": 12.29350073065545,
+      "normal_std": 7.155756846457976,
+      "normal_75th": 17.0,
+      "normal_95th": 25.0,
+      "overall_max": 31.0
+    },
+    "total_files_burned": {
+      "normal_mean": 7.388414655879103,
+      "normal_std": 14.726693111642714,
+      "normal_75th": 6.0,
+      "normal_95th": 42.0,
+      "overall_max": 186.0
+    },
+    "burned_from_other": {
+      "normal_mean": 0.001220729229782229,
+      "normal_std": 0.03491775929199411,
+      "normal_75th": 0.0,
+      "normal_95th": 0.0,
+      "overall_max": 1.0
+    },
+    "num_printed_pages_off_hours": {
+      "normal_mean": 0.3822397262715187,
+      "normal_std": 1.8497248921131542,
+      "normal_75th": 0.0,
+      "normal_95th": 2.0,
+      "overall_max": 253.0
+    },
+    "total_printed_pages": {
+      "normal_mean": 12.772650318993477,
+      "normal_std": 20.669249010107603,
+      "normal_75th": 17.0,
+      "normal_95th": 49.0,
+      "overall_max": 728.0
+    },
+    "num_entries": {
+      "normal_mean": 0.7283654702926186,
+      "normal_std": 0.7195279876585886,
+      "normal_75th": 1.0,
+      "normal_95th": 2.0,
+      "overall_max": 4.0
+    },
+    "late_exit_flag": {
+      "normal_mean": 0.0,
+      "normal_std": 0.0,
+      "normal_75th": 0.0,
+      "normal_95th": 0.0,
+      "overall_max": 0.0
+    },
+    "entry_during_weekend": {
+      "normal_mean": 0.04511351890793741,
+      "normal_std": 0.2075540247002763,
+      "normal_75th": 0.0,
+      "normal_95th": 0.0,
+      "overall_max": 1.0
+    },
+    "trip_day_number": {
+      "normal_mean": 0.2191966354207506,
+      "normal_std": 1.2594064539523286,
+      "normal_75th": 0.0,
+      "normal_95th": 0.0,
+      "overall_max": 14.0
+    }
+  }
+}
